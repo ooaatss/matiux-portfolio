@@ -5,6 +5,8 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
 `
 
 export const GridContainer = styled.section`
@@ -68,7 +70,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 10px 50px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
