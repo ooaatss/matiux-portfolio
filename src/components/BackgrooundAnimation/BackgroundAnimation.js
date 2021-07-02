@@ -1,8 +1,10 @@
 import React from 'react';
+import { ImgRounded } from './BackgroundStyles';
 
 const BackgroundAnimation = () => (
   <div>
-    <svg
+    <ImgRounded src="https://avatars.githubusercontent.com/u/68492503?s=400&u=ad04d667c44065348026a27cd5ae3587a83e60fc&v=4"/>
+    {/* <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
@@ -358,7 +360,7 @@ const BackgroundAnimation = () => (
           <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
         </linearGradient>
       </defs>
-    </svg>
+    </svg> */}
   </div>
 );
 
