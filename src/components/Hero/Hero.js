@@ -14,7 +14,7 @@ const Hero = (props) => (
      <SectionText>
      Hi there! I am Mateo! You might also know me as MatiuxDev. I have been studying programming since I was 17 years old, I really like creating innovative things, I also learn a lot about new things
      </SectionText>
-     <Button onCLick={()=> window.location = 'https://google.com'}>Dowload CV (Comming Soon)</Button>
+     <Button onCLick={()=> window.location = '/'}>Dowload CV</Button>
    </LeftSection>
   </Section>
 );
