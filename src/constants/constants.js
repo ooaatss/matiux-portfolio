@@ -27,6 +27,15 @@ export const projects = [
     visit: 'https://devslippery-chat.netlify.app/',
     id: 2,
   },
+   {
+    title: 'Nuxty Movie Searcher',
+    description: 'A website for search info about your favorite movies',
+    image: '/images/nuxty.png',
+    tags: ['Vue', 'API', 'Nuxt'],
+    source: 'https://github.com/MatiuxDev/movies-app',
+    visit: 'https://nuxty-movie-searcher.herokuapp.com/',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
