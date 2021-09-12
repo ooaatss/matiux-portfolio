@@ -1,15 +1,5 @@
 export const projects = [
   {
-    title: 'Commentify Template',
-    description:
-      'Using VueJS and eFrolic (CSS framework created by Efrain Peralta)',
-    image: '/images/commentify.png',
-    tags: ['Vue', 'CSS'],
-    source: 'https://github.com/MatiuxDev/commentify',
-    visit: 'https://commentify-test.netlify.app/',
-    id: 0,
-  },
-  {
     title: 'Pepe Restaurant',
     description: 'A Pepe Restaurant frontend using HTML, CSS, and Javascript',
     image: '/images/peperestaurant.png',
@@ -29,12 +19,21 @@ export const projects = [
   },
    {
     title: 'Nuxty Movie Searcher',
-    description: 'A website for search info about your favorite movies',
+    description: 'A website for search info about your favorite movies ( NuxtJS Version )',
     image: '/images/nuxty.png',
     tags: ['Vue', 'API', 'Nuxt'],
     source: 'https://github.com/MatiuxDev/movies-app',
     visit: 'https://nuxty-movie-searcher.herokuapp.com/',
     id: 3,
+  },
+   {
+    title: 'Rexty Movie Searcher',
+    description: 'A website for search info about your favorite movies ( ReactJS Version )',
+    image: '/images/nuxty.png',
+    tags: ['React', 'API', 'React-Query', 'React Hooks'],
+    source: 'https://github.com/MatiuxDev/movies-app-react',
+    visit: 'https://rexty.netlify.app',
+    id: 4,
   },
 ];
 
