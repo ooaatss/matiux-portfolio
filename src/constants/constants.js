@@ -29,7 +29,7 @@ export const projects = [
    {
     title: 'Rexty Movie Searcher',
     description: 'A website for search info about your favorite movies ( ReactJS Version )',
-    image: '/images/nuxty.png',
+    image: '/images/screenshot.png',
     tags: ['React', 'API', 'React-Query', 'React Hooks'],
     source: 'https://github.com/MatiuxDev/movies-app-react',
     visit: 'https://rexty.netlify.app',
