@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
 const data = [
   { number: 15, text: 'Open Source Projects'},
   { number: 18, text: 'Github Followers', },
@@ -10,6 +9,7 @@ const data = [
 ];
 
 const Acomplishments = () => (
+  
   <Section>
     <SectionDivider/>
     <br/>

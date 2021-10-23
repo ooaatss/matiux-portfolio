@@ -16,9 +16,9 @@ import {
   NavLink,
   SocialIcons,
   AFlex,
-  Span
+  Span,
 } from './HeaderStyles';
-
+import { Links } from '../../constants/constants';
 const Header = () => (
   <Container>
     <Div1>
@@ -30,21 +30,13 @@ const Header = () => (
       </Link>
     </Div1>
     <Div2>
-      <li>
-        <Link href='#projects'>
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href='#projects'>
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href='#projects'>
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
+      {Links.map(({ href, name }) => (
+        <li>
+          <Link href={href}>
+            <NavLink>{name}</NavLink>
+          </Link>
+        </li>
+      ))}
     </Div2>
     <Div3>
       <SocialIcons href='https://github.com/MatiuxDev' target='_blank'>

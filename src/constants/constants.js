@@ -1,3 +1,17 @@
+export const Links = [
+  {
+    name: "Projects",
+    href:'#projects'
+  },
+  {
+    name: "Technologies",
+    href:'#tech'
+  },
+  {
+    name: "Timeline",
+    href:'#timeline'
+  },
+]
 export const projects = [
   {
     title: 'Pepe Restaurant',

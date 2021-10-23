@@ -60,7 +60,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id='about'>
+    <Section id='timeline'>
       <SectionDivider />
       <br />
       <SectionTitle>Time Line</SectionTitle>
