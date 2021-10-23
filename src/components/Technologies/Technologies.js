@@ -1,7 +1,7 @@
 import React from 'react';
 import { DiReact, DiNodejsSmall, DiMongodb, DiMysql } from 'react-icons/di';
 import { RiVuejsFill } from 'react-icons/ri';
-import { SiAdobexd } from 'react-icons/si';
+import { SiAdobexd, SiNuxtDotJs } from 'react-icons/si';
 import {CgFigma} from 'react-icons/cg';
 import {
   Section,
@@ -46,25 +46,25 @@ const Technologies = () => (
         <DivFlex>
           <DiReact size='3rem' />
           <RiVuejsFill size='3rem' />
+          <SiNuxtDotJs size='3rem' />
         </DivFlex>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Vue.js and React.js
+            Vue.js, Nuxt.js and React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DivFlex>
-        <SiAdobexd size='3rem' />
         <CgFigma size='3rem' />
         </DivFlex>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like AdobeXD and Figma
+            tools like Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
