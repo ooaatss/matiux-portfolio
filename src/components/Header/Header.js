@@ -25,7 +25,7 @@ const Header = () => (
       <Link href='/'>
         <AFlex>
           <DiCoda size='3rem' />
-          <Span>MatiuxDev</Span>
+          <Span>ImMatiux</Span>
         </AFlex>
       </Link>
     </Div1>
