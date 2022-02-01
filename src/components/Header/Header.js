@@ -39,10 +39,10 @@ const Header = () => (
       ))}
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com/MatiuxDev' target='_blank'>
+      <SocialIcons href='https://github.com/ImMatiux' target='_blank'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://instagram.com/matiuxdev' target='_blank'>
+      <SocialIcons href='https://instagram.com/immatiux' target='_blank'>
         <AiFillInstagram size='3rem' />
       </SocialIcons>
       <SocialIcons href='https://twitter.com/matiuxdev' target='_blank'>
