@@ -12,7 +12,7 @@ const Hero = (props) => (
        Mateo Acevedo 
      </SectionTitle>
      <SectionText>
-     Hi there! I am Mateo! You might also know me as MatiuxDev. I have been studying programming since I was 17 years old, I really like creating innovative things, I also learn a lot about new things
+     Hi there! I am Mateo! You might also know me as ImMatiux. I have been studying programming since I was 17 years old, I really like creating innovative things, I also learn a lot about new things
      </SectionText>
      <Button onClick={()=> window.location.href = 'matiuxCV.pdf'}>Download CV</Button>
    </LeftSection>
